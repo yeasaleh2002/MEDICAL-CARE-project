@@ -6,11 +6,13 @@ import Footer from './components/Shared/Footer/Footer';
 import Home from './components/AllFeatures/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Services from './components/AllFeatures/Services/Services';
-import Login from './components/Login/Login';
+import Login from './components/LoginAndRegister/Login/Login';
 import Doctor from './components/AllFeatures/Doctor/Doctor';
 import Contact from './components/AllFeatures/Contact/Contact';
 import AboutUs from './components/AllFeatures/AboutUs/AboutUs';
 import Blogs from './components/AllFeatures/Blogs/Blogs';
+import Register from './components/LoginAndRegister/Register/Register';
+
 
 function App() {
   return (
@@ -53,6 +55,10 @@ function App() {
 
              <Route path="/login">
                <Login></Login>
+             </Route>
+
+             <Route path="/register">
+               <Register></Register>
              </Route>
 
              <Route path="*">

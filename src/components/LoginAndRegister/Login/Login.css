@@ -1,0 +1,26 @@
+/* login page style */
+.login-page{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-image: url('https://wallpaperaccess.com/full/1254791.jpg');
+    
+}
+
+/* login-button style */
+.login-btn{
+    background-color: hotpink ;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* login-button hover effect style */
+.login-btn:hover{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+

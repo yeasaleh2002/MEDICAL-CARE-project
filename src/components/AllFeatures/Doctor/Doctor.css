@@ -1,0 +1,13 @@
+.doctor{
+    line-gap-override: 20px;
+}
+.doctor:hover{
+    box-shadow: 2px 4px 6px gray;
+    transition: .7s;
+    border-radius: 10px;
+    border: 2px solid aquamarine;
+}
+
+.doctor img {
+    height: 180px;
+}
