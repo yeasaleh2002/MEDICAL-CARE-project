@@ -8,16 +8,20 @@ const Header = () => {
     return (
     
    <div>
-       <Navbar  fixed="top"  collapseOnSelect expand="lg" bg="light" variant="light">
+
+       <Navbar   collapseOnSelect expand="lg" bg="light" variant="light">
   <Container>
+
 
       {/* navbar brand part */}
   <Navbar.Brand> 
 
+
       {/* navbar image part */}
   <img alt="" src="https://i.ibb.co/wWbMN8C/HEAD-Top-9-Medical-Apps-for-Doctors-Hero-no-text.png" width="55" height="55" className="header-img d-inline-block align-top"/>{' '} 
-  <span className="fw-bold text-secondary fs-3 p-3"> MEDICAL CARE</span>
+  <span className="fw-bold text-danger fs-3 p-3"> MEDICAL CARE</span>
       </Navbar.Brand>
+
 
       {/* navbar route part */}
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
