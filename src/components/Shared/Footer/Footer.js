@@ -17,7 +17,7 @@ const Footer = () => {
                          
                           {/* footer contact info part  */}
                      <div className="col-sm-12 col-md-12 col-lg-4 content-margin pe-2">
-                            <h2 className="text-light mb-5">Contact info</h2>
+                            <h2 className="text-light mb-5 text-center">Contact info</h2>
                             <p className="fs-4 text-white mt-4"> <i className="fas fa-phone-square-alt bg-success p-2 me-2"></i> 01757604381 </p>
                             <p className="fs-4 text-white mt-2"> <i className="far fa-envelope bg-warning p-2 me-2"></i> yeasalehofficial2002@gmail.com </p>
                             <p className="fs-4 text-white mt-2"> <i className="fas fa-map-marked-alt bg-danger me-2 p-2"></i> 123, Pangsha Rajbari.</p>
@@ -36,7 +36,7 @@ const Footer = () => {
 
                       {/* footer working hours part */}
                      <div className="col-sm-12 col-md-12 col-lg-4 p-2 bg-primary rounded-3 mt-4 ">
-                     <h2  className="text-light mb-5">Working Hours</h2>
+                     <h2  className="text-light mb-5 text-center">Working Hours</h2>
 
                                 <div className="row ">
                                     <div className=" col-sm-6 col-md-6 text-white">
@@ -112,12 +112,12 @@ const Footer = () => {
 
                     {/* footer any question part */}
                      <div className="col-sm-12 col-md-12 col-lg-4 ps-5 content-margin">
-                            <h2  className="text-light mb-5">Any Questions ?</h2>
+                            <h2  className="text-light mb-5 text-center">Any Questions ?</h2>
 
-
+                         {/* footer form part */}
                            <Form>
                                 <Form.Group className="mb-3" controlId="formGroupEmail">
-                                    <Form.Control placeholder="First name" /> <br />
+                                    <Form.Control placeholder="Enter Name" /> <br />
                                     <Form.Control  type="email" placeholder="Enter email" /> <br />
                                     <Form.Control placeholder="Subject" /> <br />
                                     <FloatingLabel controlId="floatingTextarea2" label="Message">
@@ -130,14 +130,15 @@ const Footer = () => {
                                 </Form.Group>
                                 
                             </Form>
-                            <Button variant="primary"> Learn more </Button>
+
+                         <span  className=" d-flex align-items-end justify-content-end pe-3">   <Button variant="danger"> Learn more </Button> </span>
                      </div>                  
                 </div>
             </div>
             
             {/* footer copy right part */}
             <div className="bg-info p-5">
-                 <h4 className="text-light">© 2021 Medical Care. All Rights Reserved</h4>
+                 <h4 className="text-light text-center">© 2021 Medical Care. All Rights Reserved</h4>
             </div>
         </div>
     

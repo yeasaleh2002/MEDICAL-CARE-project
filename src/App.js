@@ -10,6 +10,7 @@ import Login from './components/Login/Login';
 import Doctor from './components/AllFeatures/Doctor/Doctor';
 import Contact from './components/AllFeatures/Contact/Contact';
 import AboutUs from './components/AllFeatures/AboutUs/AboutUs';
+import Blogs from './components/AllFeatures/Blogs/Blogs';
 
 function App() {
   return (
@@ -34,16 +35,20 @@ function App() {
                <Services></Services>
              </Route>
 
+             <Route path="/doctor">
+               <Doctor></Doctor>
+             </Route>
+
+             <Route path="/blogs">
+               <Blogs></Blogs>
+             </Route>
+            
              <Route path="/about">
                <AboutUs></AboutUs>
              </Route>
 
              <Route path="/contact">
                <Contact></Contact>
-             </Route>
-
-             <Route path="/doctor">
-               <Doctor></Doctor>
              </Route>
 
              <Route path="/login">

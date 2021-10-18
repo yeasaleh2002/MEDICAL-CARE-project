@@ -1,0 +1,57 @@
+/* contact-banner style */
+
+.contact-banner {
+    background-image: url('https://www.summerlinhospital.com/sites/summerlinhospital.com/files/styles/art_directed_banner__desktop_1700x605/public/AC-recovery_herobanner_2_1700.jpg?itok=U_eBc2y2');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+    padding: 130px;
+    color: gold ;
+    text-align: center;
+    
+}
+
+
+
+/* contact part style */
+.contact {
+    padding: 55px;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+
+/* contact part hover effect style */
+.contact:hover {
+    box-shadow: 2px 5px 10px gray;
+    padding: 55px;
+    border-radius: 20px;
+    border: 2px solid tomato;
+}
+
+
+/* Get in touch with us image style  */
+.image-style img{
+    border-radius: 20px;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+} 
+
+
+/* Get in touch with us image hover effect  */
+.image-style img:hover{
+    box-shadow: 2px 5px 15px gray;
+    border-radius: 20px;
+    border: 2px solid tomato;
+} 
+
+
+/* message us button hover effect */
+.button-style:hover{
+    background-color: whitesmoke;
+    color: tomato;
+}
