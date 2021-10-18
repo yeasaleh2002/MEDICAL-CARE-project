@@ -8,7 +8,7 @@ const Header = () => {
     return (
     
    <div>
-       <Navbar  sticky="top"  collapseOnSelect expand="lg" bg="light" variant="light">
+       <Navbar  fixed="top"  collapseOnSelect expand="lg" bg="light" variant="light">
   <Container>
 
       {/* navbar brand part */}
