@@ -1,0 +1,398 @@
+[
+    {
+      "_id": "616d3b33730d24c1c4ce513d",
+      "index": 0,
+      "guid": "8c8c72aa-5928-45a4-a06e-beda81e8f4d4",
+      "isActive": true,
+      "balance": "$2,567.24",
+      "picture": "https://i.ibb.co/Jryf77w/dept-1.png",
+      "age": 36,
+      "eyeColor": "green",
+      "service": "Neurology Specialist",
+      "company": "ENVIRE",
+      "email": "allysonlandry@envire.com",
+      "phone": "+1 (909) 507-2724",
+      "address": "969 Hudson Avenue, Dyckesville, Virgin Islands, 6855",
+      "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.\r\n",
+      "registered": "2016-12-30T07:58:22 -06:00",
+      "latitude": 87.371543,
+      "longitude": 107.867989,
+      "tags": [
+        "commodo",
+        "quis",
+        "laboris",
+        "adipisicing",
+        "veniam",
+        "nulla",
+        "consectetur"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Miranda Wright"
+        },
+        {
+          "id": 1,
+          "name": "Cherie Mccray"
+        },
+        {
+          "id": 2,
+          "name": "Lula Smith"
+        }
+      ],
+      "greeting": "Hello, Allyson Landry! You have 8 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "616d3b3361f074ce60db858b",
+      "index": 1,
+      "guid": "e40d3a35-4733-4702-b60a-a393c3b93124",
+      "isActive": true,
+      "balance": "$2,634.51",
+      "picture": "https://i.ibb.co/fD796q9/435px-Operating-theatre.jpg",
+      "age": 20,
+      "eyeColor": "brown",
+      "service": "Mordern Operation Theater",
+      "company": "EARGO",
+      "email": "irisbenson@eargo.com",
+      "phone": "+1 (998) 600-2924",
+      "address": "679 Nautilus Avenue, Westwood, Minnesota, 2701",
+      "description": "An operating theater (also known as an operating room (OR), operating suite, or operation suite) is a facility within a hospital where surgical operations are carried out in an aseptic environment. Historically, the term operating theatre referred to a non-sterile, tiered theater or amphitheater in which students and other spectators could watch surgeons perform surgery. Contemporary operating rooms are devoid of a theatre setting, making the term operating theater a misnomer.\r\n",
+      "registered": "2015-11-29T08:16:57 -06:00",
+      "latitude": -6.876821,
+      "longitude": 131.382219,
+      "tags": [
+        "sit",
+        "elit",
+        "tempor",
+        "elit",
+        "cupidatat",
+        "amet",
+        "ad"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Shelia Rush"
+        },
+        {
+          "id": 1,
+          "name": "Castro Kim"
+        },
+        {
+          "id": 2,
+          "name": "Sargent Trevino"
+        }
+      ],
+      "greeting": "Hello, Iris Benson! You have 2 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "616d3b33923208e2b419a07b",
+      "index": 2,
+      "guid": "774593b9-8b3c-4bb8-b7c5-09aa0def0954",
+      "isActive": true,
+      "balance": "$2,651.57",
+      "picture": "https://i.ibb.co/7GVfqCg/29965530-modern-medical-laboratory-equipment.jpg",
+      "age": 21,
+      "eyeColor": "brown",
+      "service": "Modern Medical Laboratory",
+      "company": "POLARIUM",
+      "email": "moniqueworkman@polarium.com",
+      "phone": "+1 (922) 547-2366",
+      "address": "444 Colin Place, Chase, North Carolina, 3520",
+      "description": "A medical laboratory or clinical laboratory is a laboratory where tests are carried out on clinical specimens to obtain information about the health of a patient to aid in diagnosis, treatment, and prevention of disease.[1] Clinical Medical laboratories are an example of applied science, as opposed to research laboratories that focus on basic science, such as found in some academic institutions.\r\n",
+      "registered": "2021-08-20T12:08:14 -06:00",
+      "latitude": -28.245486,
+      "longitude": -63.890563,
+      "tags": [
+        "do",
+        "laboris",
+        "nostrud",
+        "dolor",
+        "sunt",
+        "sit",
+        "tempor"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Suarez Charles"
+        },
+        {
+          "id": 1,
+          "name": "Delores Blackwell"
+        },
+        {
+          "id": 2,
+          "name": "Barlow Lowery"
+        }
+      ],
+      "greeting": "Hello, Monique Workman! You have 1 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "616d3b339a6da1438fd8d203",
+      "index": 3,
+      "guid": "29a69096-b215-40ca-b95b-be519ca84a0f",
+      "isActive": true,
+      "balance": "$2,263.00",
+      "picture": "https://i.ibb.co/BqSBNtN/icu.jpg",
+      "age": 20,
+      "eyeColor": "green",
+      "service": "Intensive care units (ICUs)",
+      "company": "ETERNIS",
+      "email": "sykesrosario@eternis.com",
+      "phone": "+1 (813) 592-3547",
+      "address": "623 Utica Avenue, Boomer, Rhode Island, 748",
+      "description": "Intensive care units (ICUs) are specialist hospital wards that provide treatment and monitoring for people who are very ill. They're staffed with specially trained healthcare professionals and contain sophisticated monitoring equipment.\r\n",
+      "registered": "2019-07-16T01:10:00 -06:00",
+      "latitude": 33.533427,
+      "longitude": -88.636308,
+      "tags": [
+        "quis",
+        "nostrud",
+        "nostrud",
+        "exercitation",
+        "cillum",
+        "proident",
+        "laboris"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Nelson Doyle"
+        },
+        {
+          "id": 1,
+          "name": "Massey Carlson"
+        },
+        {
+          "id": 2,
+          "name": "Krista Stewart"
+        }
+      ],
+      "greeting": "Hello, Sykes Rosario! You have 9 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "616d3b33d8ca5c29a1c04e58",
+      "index": 4,
+      "guid": "d732f7df-4658-43ae-81a8-4b21a7c55e44",
+      "isActive": false,
+      "balance": "$3,435.05",
+      "picture": "https://i.ibb.co/7KrcDdM/Cod.jpg",
+      "age": 39,
+      "eyeColor": "blue",
+      "service": "Coronavirus disease Test ",
+      "company": "COWTOWN",
+      "email": "kleinfletcher@cowtown.com",
+      "phone": "+1 (964) 483-3002",
+      "address": "953 Tudor Terrace, Cavalero, West Virginia, 9274",
+      "description": "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. However, some will become seriously ill and require medical attention.\r\n",
+      "registered": "2019-02-01T03:05:22 -06:00",
+      "latitude": 5.6039,
+      "longitude": -61.531916,
+      "tags": [
+        "culpa",
+        "tempor",
+        "est",
+        "deserunt",
+        "do",
+        "est",
+        "deserunt"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Mia Perry"
+        },
+        {
+          "id": 1,
+          "name": "Banks Ortega"
+        },
+        {
+          "id": 2,
+          "name": "Lilian Mcfadden"
+        }
+      ],
+      "greeting": "Hello, Klein Fletcher! You have 9 unread messages.",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "616d3b33ba502d7f6f94d356",
+      "index": 5,
+      "guid": "7f675be6-2740-48bb-a2fa-cec48fe97888",
+      "isActive": true,
+      "balance": "$3,043.77",
+      "picture": "https://i.ibb.co/RP33Qj1/emergency-doctor-man-and-ambulance-car-Medical-concept.jpg",
+      "age": 21,
+      "eyeColor": "green",
+      "service": "24/7- Ambulance Services",
+      "company": "MEDIFAX",
+      "email": "fayshaw@medifax.com",
+      "phone": "+1 (872) 541-3419",
+      "address": "191 Saratoga Avenue, Blairstown, Kansas, 2779",
+      "description": "An ambulance is a medically equipped vehicle which transports patients to treatment facilities, such as hospitals.[1] Typically, out-of-hospital medical care is provided to the patient. Ambulances are used to respond to medical emergencies by emergency medical services. For this purpose, they are generally equipped with flashing warning lights and sirens. \r\n",
+      "registered": "2019-05-05T09:12:12 -06:00",
+      "latitude": -88.126951,
+      "longitude": 96.128887,
+      "tags": [
+        "eiusmod",
+        "ullamco",
+        "veniam",
+        "consequat",
+        "officia",
+        "eu",
+        "dolore"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Gill Ayala"
+        },
+        {
+          "id": 1,
+          "name": "Reynolds Moses"
+        },
+        {
+          "id": 2,
+          "name": "Angel Reed"
+        }
+      ],
+      "greeting": "Hello, Fay Shaw! You have 4 unread messages.",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "616d3b335be64ac0dfae5b55",
+      "index": 6,
+      "guid": "b536e671-db95-42f0-835e-d7f007d3ff71",
+      "isActive": true,
+      "balance": "$3,883.39",
+      "picture": "https://i.ibb.co/1Z71kV2/85y96g7t0b.jpg",
+      "age": 30,
+      "eyeColor": "blue",
+      "service": "24/7- Emergency Doctor",
+      "company": "SATIANCE",
+      "email": "cookepoole@satiance.com",
+      "phone": "+1 (828) 586-3438",
+      "address": "785 Locust Street, Turah, Arkansas, 1055",
+      "description": "Elit eiusmod voluptate mollit ullamco ex qui mollit occaecat culpa dolor duis Lorem. Proident enim proident laboris proident consectetur velit qui. Laborum excepteur est aliqua culpa deserunt in commodo pariatur occaecat. Amet incididunt labore Lorem minim excepteur ex. Dolor id consectetur dolore ex ad magna est ea reprehenderit ullamco minim. Ea sunt velit labore labore quis ut magna ea excepteur laboris dolore. Elit velit consectetur cupidatat elit magna sunt aliqua.\r\n",
+      "registered": "2014-07-24T05:45:01 -06:00",
+      "latitude": -25.26591,
+      "longitude": -63.676282,
+      "tags": [
+        "fugiat",
+        "ex",
+        "velit",
+        "amet",
+        "culpa",
+        "ex",
+        "amet"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Nadine Russell"
+        },
+        {
+          "id": 1,
+          "name": "Elisa Mcneil"
+        },
+        {
+          "id": 2,
+          "name": "Shanna Craft"
+        }
+      ],
+      "greeting": "Hello, Cooke Poole! You have 5 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "616d3b33a4ae737987ea2e0b",
+      "index": 7,
+      "guid": "f86f1861-d039-4a78-a4da-eb895b504002",
+      "isActive": false,
+      "balance": "$2,818.88",
+      "picture": "https://i.ibb.co/0VZkLZJ/Dhaka-All-Blood-Bank-Contact-Number-Address-Info.jpg",
+      "age": 37,
+      "eyeColor": "brown",
+      "service": "Blood Bank",
+      "company": "PYRAMAX",
+      "email": "daughertyweiss@pyramax.com",
+      "phone": "+1 (862) 514-2084",
+      "address": "139 Kenilworth Place, Condon, Idaho, 9707",
+      "description": "A blood bank is a center where blood gathered as a result of blood donation is stored and preserved for later use in blood transfusion. The term blood bank typically refers to a division of a hospital where the storage of blood product occurs and where proper testing is performed (to reduce the risk of transfusion related adverse events). However, it sometimes refers to a collection center, and some hospitals also perform collection. Blood banking includes tasks related to blood collection, processing, testing, separation, and storage.\r\n",
+      "registered": "2015-05-17T05:51:41 -06:00",
+      "latitude": 65.696511,
+      "longitude": 65.358883,
+      "tags": [
+        "labore",
+        "non",
+        "aliquip",
+        "in",
+        "pariatur",
+        "minim",
+        "officia"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Katrina Espinoza"
+        },
+        {
+          "id": 1,
+          "name": "Theresa Fischer"
+        },
+        {
+          "id": 2,
+          "name": "Katie Beach"
+        }
+      ],
+      "greeting": "Hello, Daugherty Weiss! You have 2 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "616d3b33a4ae737987ea2e0b",
+      "index": 8,
+      "guid": "f86f1861-d039-4a78-a4da-eb895b504002",
+      "isActive": false,
+      "balance": "$2,818.88",
+      "picture": "https://i.ibb.co/ZKJ4gg1/modern-health-pharmacy-store-rome-260nw-1705939195.jpg",
+      "age": 37,
+      "eyeColor": "brown",
+      "service": "pharmacy",
+      "company": "PYRAMAX",
+      "email": "daughertyweiss@pyramax.com",
+      "phone": "+1 (862) 514-2084",
+      "address": "139 Kenilworth Place, Condon, Idaho, 9707",
+      "description": "Pharmacy is the clinical health science that links medical science with chemistry and it is charged with the discovery, production, disposal, safe and effective use, and control of medications and drugs.\r\n",
+      "registered": "2015-05-17T05:51:41 -06:00",
+      "latitude": 65.696511,
+      "longitude": 65.358883,
+      "tags": [
+        "labore",
+        "non",
+        "aliquip",
+        "in",
+        "pariatur",
+        "minim",
+        "officia"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Katrina Espinoza"
+        },
+        {
+          "id": 1,
+          "name": "Theresa Fischer"
+        },
+        {
+          "id": 2,
+          "name": "Katie Beach"
+        }
+      ],
+      "greeting": "Hello, Daugherty Weiss! You have 2 unread messages.",
+      "favoriteFruit": "apple"
+    }
+  ]
