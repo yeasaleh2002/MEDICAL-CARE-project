@@ -3,6 +3,7 @@ import AboutUs from '../AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 import Doctor from '../Doctor/Doctor';
+import Services from '../Services/Services';
 import './Home.css';
 
 const Home = () => {
@@ -10,6 +11,8 @@ const Home = () => {
         <div>
             
             <Banner></Banner>
+
+            <Services></Services>
 
             <Doctor></Doctor>
 

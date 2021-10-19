@@ -12,6 +12,7 @@ import Contact from './components/AllFeatures/Contact/Contact';
 import AboutUs from './components/AllFeatures/AboutUs/AboutUs';
 import Blogs from './components/AllFeatures/Blogs/Blogs';
 import Register from './components/LoginAndRegister/Register/Register';
+import Service from './components/AllFeatures/Service/Service';
 
 
 function App() {
@@ -33,8 +34,12 @@ function App() {
                <Home></Home>
              </Route>
 
-             <Route path="/service">
+             <Route path="/services">
                <Services></Services>
+             </Route>
+
+             <Route path="/service/:serviceId">
+               <Service></Service>
              </Route>
 
              <Route path="/doctor">
