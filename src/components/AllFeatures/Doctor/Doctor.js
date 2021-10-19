@@ -8,8 +8,11 @@ import './Doctor.css';
 const Doctor = () => {
     return (
         <div className="container pt-5">
+            
                           <h1 className=" text-center p-4"> <Link className="text-decoration-none text-info" to="/doctor"> Doctors Gallery</Link></h1>
               <div className="row ">
+
+                  {/* child-1 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3" src="https://i.ibb.co/6PG52CM/child-1.jpg" alt="" />
@@ -21,6 +24,7 @@ const Doctor = () => {
                       </div>
                   </div>
                   
+                  {/* child-2  */}
                   <div className="col-sm-12 col-md-6 col-lg-4  doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100  h-100 rounded-3"  src="https://i.ibb.co/M50HxQv/child-2.jpg" alt="" />
@@ -33,6 +37,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+                  {/* child-3 */}
                   <div className="col-sm-12 col-md-6 col-lg-4  doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/LpF0xBM/child-3.jpg" alt="" />
@@ -45,6 +50,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+               {/* dental-1 */}
                   <div className="col-sm-12 col-md-6 col-lg-4  doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/YZmcxb2/dental-1.jpg" alt="" />
@@ -57,6 +63,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+                  {/* dental-2 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/hVqZtRB/dental-2.jpg" alt="" />
@@ -69,6 +76,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+                   {/* eye-1 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/F4sZXt8/Portrait-of-handsome-eye-doctor-sitting-with-ophthalmologic-device-in-the-cabinet.jpg" alt="" />
@@ -81,6 +89,8 @@ const Doctor = () => {
                       </div>
                   </div>
 
+
+                  {/* eye-2  */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/rsv4Zwj/eye-2.jpg" alt="" />
@@ -93,6 +103,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+               {/* medicin-3 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/rmHCr1t/medicin-1-jpg.jpg" alt="" />
@@ -105,6 +116,8 @@ const Doctor = () => {
                       </div>
                   </div>
 
+
+               {/* medicin-2 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                      <div>
                      <img  className="w-100 h-100 rounded-3"  src="https://cdn.pixabay.com/photo/2016/01/19/15/05/doctor-1149149__480.jpg" alt="" />
@@ -117,6 +130,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+               {/* medicin-3 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/TvD1C6T/medicin-3-jpg.jpg" alt="" />
@@ -129,6 +143,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+                   {/* urology-1 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                       <div>
                       <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/DGxvBcy/urology-1.jpg" alt="" />
@@ -141,6 +156,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+                   {/* urology-2 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                      <div>
                      <img  className="w-100 h-100 rounded-3"  src="https://i.ibb.co/SxM4nhg/urology-2.jpg" alt="" />
@@ -153,6 +169,7 @@ const Doctor = () => {
                       </div>
                   </div>
 
+               {/* urology-3 */}
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                      <div>
                      <img className="w-100 h-100 rounded-3" src="https://i.ibb.co/J56kYQ8/urology-3.jpg" alt="" />

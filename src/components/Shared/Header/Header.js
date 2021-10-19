@@ -38,27 +38,21 @@ const Header = () => {
        <NavLink className="nav-link fs-5" to="/blogs">Blogs</NavLink>
        <NavLink className="nav-link fs-5" to="/about">About Us</NavLink>    
        <NavLink className="nav-link fs-5" to="/contact">Contact</NavLink>
-       <NavLink className="nav-link fs-5" to="/login">LogIn</NavLink>
        
-       
-       <span className="fs-5 ms-2 pt-2">{user.displayName} </span>
-            {user?.displayName && <button  className="fs-5 ms-2" onClick={handleSignOut}>log out</button>}
-        
- 
- {/* 
-{user?.displayName && <span className="fs-5 ms-2 pt-2" >Hello {user.displayName} </span>}
+     {
+         user.displayName ?
 
- 
-{ 
- user.displayName ?
- <button  className="fs-5 ms-2" onClick={handleSignOut}>log out</button>
-:  
+         
+         <button  className="fs-5 ms-2" onClick={handleSignOut}> <span className="fs-5 ms-2 pt-2">{user.displayName} </span> log out</button>
+
+         :
+
+         <NavLink className="nav-link fs-5" to="/login">LogIn</NavLink>
+
+
+     } 
+
   
-      <NavLink className="nav-link fs-5" to="/login"> <button> LogIn </button> </NavLink>
-  }
-
-  */}
-
 
 
     </Nav>

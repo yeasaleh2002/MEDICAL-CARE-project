@@ -8,7 +8,7 @@ import './Register.css';
 const Register = () => {
 
 
-    const { handleEmailChange, handlePasswordChange, error  } = useAuth();
+    const {handleGoogleLogIn, handleGithubLogIn, handleFacebookLogIn, handleEmailChange, handlePasswordChange, error  } = useAuth();
 
     return (
         
@@ -45,8 +45,15 @@ const Register = () => {
        <Button className="p-2 rounded-3 register-btn" >Please Register</Button>{' '}
        <hr className="w-100" />
              
-               <span className="fs-4">Already have an account ? <Link className="text-info text-decoration-none" to="/login">Login</Link></span>                       
-           </div>
+           
+                          {/* social media icon and button */}
+                          <div>
+                            <Button  onClick= {handleGoogleLogIn} className="icon-style text-danger fs-5 rounded-3"><i className="text-primary fab fa-google"></i> Google</Button>{' '}
+                            <Button  onClick= {handleGithubLogIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-github"></i> Github</Button>{' '}
+                            <Button  onClick= {handleFacebookLogIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-facebook"></i> Facebook</Button>{' '}
+                            </div> <hr  className="w-100"/>
+                            <span className="fs-4">New Users ? <Link className="text-info text-decoration-none" to="/register">Register</Link></span>                       
+                        </div> 
 
            {/* register-page image */}
            <div className="col-sm-12 col-md-12 col-lg-7 ">

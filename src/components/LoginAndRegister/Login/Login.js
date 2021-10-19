@@ -1,13 +1,39 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import './Login.css';
 
 const Login = () => {
 
     const { handleGoogleSignIn, handleGithubSignIn, handleFacebookSignIn } = useAuth();
+
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home'
+
+    
+  const handleGoogleLogIn = () => {
+    handleGoogleSignIn()
+    .then(result => {
+       history.push(redirect_uri)
+    })
+  }
+
+  const handleGithubLogIn = () => {
+    handleGithubSignIn()
+    .then(result => {
+       history.push(redirect_uri)
+    })
+  }
+
+  const handleFacebookLogIn = () => {
+    handleFacebookSignIn()
+    .then(result => {
+       history.push(redirect_uri)
+    })
+  }
 
     return (
 
@@ -40,9 +66,9 @@ const Login = () => {
                           
                           {/* social media icon and button */}
                         <div>
-                            <Button  onClick= {handleGoogleSignIn} className="icon-style text-danger fs-5 rounded-3"><i className="text-primary fab fa-google"></i> Google</Button>{' '}
-                            <Button  onClick= {handleGithubSignIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-github"></i> Github</Button>{' '}
-                            <Button  onClick= {handleFacebookSignIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-facebook"></i> Facebook</Button>{' '}
+                            <Button  onClick= {handleGoogleLogIn} className="icon-style text-danger fs-5 rounded-3"><i className="text-primary fab fa-google"></i> Google</Button>{' '}
+                            <Button  onClick= {handleGithubLogIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-github"></i> Github</Button>{' '}
+                            <Button  onClick= {handleFacebookLogIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-facebook"></i> Facebook</Button>{' '}
                             </div> <hr  className="w-100"/>
                             <span className="fs-4">New Users ? <Link className="text-info text-decoration-none" to="/register">Register</Link></span>                       
                         </div>

@@ -1,6 +1,9 @@
+/* doctor style */
 .doctor{
     line-gap-override: 20px;
 }
+
+/* doctor hover effect style */
 .doctor:hover{
     box-shadow: 2px 4px 6px gray;
     transition: .7s;
@@ -8,6 +11,7 @@
     border: 2px solid aquamarine;
 }
 
+/* doctor image */
 .doctor img {
     height: 180px;
 }

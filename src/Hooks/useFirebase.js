@@ -147,13 +147,11 @@ const processLogin = (email, password) => {
       const user = result.user;
       console.log(user);
       
-      // catch a kono error na thakle setError empty text kore dite hobe.
       setError('');
     })
    
     .catch((error) => {
    
-      // authentication a internal error thakle catch seta dhore ta dekhabe.
       setError(error.message);
     });
    }
@@ -170,7 +168,6 @@ const processLogin = (email, password) => {
     const user = result.user;
     console.log(user);
    
-    // catch a kono error na thakle setError empty text kore dite hobe.
      setError(''); 
      
      // set user name call
@@ -182,7 +179,6 @@ const processLogin = (email, password) => {
    })
    .catch((error) => {
    
-    // authentication a internal error thakle catch seta dhore ta dekhabe.
     setError(error.message)
    });
    }
@@ -235,21 +231,8 @@ const processLogin = (email, password) => {
 
     // ---------------handle google sign in process----------------
     const handleGoogleSignIn = () => {
-        signInWithPopup(auth, googleProvider)
-        .then((result) => {
-           
-          const {displayName, email, photoURL} = result.user;
-          const loggedInUser = {
-              name: displayName,
-              email: email,
-              photo: photoURL
-          }
-          setUser(loggedInUser);
-        })
-        .catch((error) => {
-            console.log(error.message);
-           
-          });
+      return  signInWithPopup(auth, googleProvider)
+      
     }
 
 
@@ -257,42 +240,16 @@ const processLogin = (email, password) => {
     
     // --------------handle github sign in---------------
     const handleGithubSignIn = () => {
-        signInWithPopup(auth, githubProvider)
-        .then (result => {
-            
-            const {displayName, email, photoURL} = result.user;
-            const loggedInUser = {
-                name: displayName,
-                email: email,
-                photo: photoURL
-            } 
-            setUser(loggedInUser);
-        })
-        .catch((error) => {
-            console.log(error.message);
-        })
+     return   signInWithPopup(auth, githubProvider)
+       
     }  
    
    
     // ---------------handle facebook sign in-----------------
     const handleFacebookSignIn = () => {
 
-        signInWithPopup(auth, facebookProvider)
-        .then(result => {
-        
-            const {displayName, email, photoURL} = result.user;
-            const loggedInUser = {
-                name: displayName,
-                email: email,
-                photo: photoURL
-            }
-            setUser(loggedInUser);
-           
-
-        })
-        .catch(error => {
-            console.log(error.message);
-        })
+     return   signInWithPopup(auth, facebookProvider)
+      
     }
 
 
@@ -317,7 +274,6 @@ const handleSignOut = () => {
 
 useEffect( () => {
 
-    /* firebase theke onAuthStateChanged use kora holo. and user ar akta function hobe. */
     onAuthStateChanged(auth, (user) => {
         if (user) {
          
