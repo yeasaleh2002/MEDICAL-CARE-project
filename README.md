@@ -9,9 +9,31 @@
 
 # Website Feature:
 
+1. This website is made for a medical clinic.
+
+
+2. The home page gave us all the benefits.
+
+
+3. The services can be found on our service page.
 
 
 
+4. Clicking the call us button on the service page will show detailed information on the new route according to that ID
+
+
+
+5. We have detailed information in the About section.
+
+
+
+6. The contact route has all the ways to communicate with us.
+
+
+7. In Blog component , there describe about covid 19.
+
+
+8. Customers will be able to take all our benefits through the service page.
 
 
 # Getting Started with Create React App

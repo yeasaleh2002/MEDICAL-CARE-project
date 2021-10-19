@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AboutUs from '../AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
+import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import Doctor from '../Doctor/Doctor';
 import Services from '../Services/Services';
@@ -21,6 +22,9 @@ const Home = () => {
             {/* doctor */}
             <Doctor></Doctor>
             <hr className="mx-3"/>
+
+            {/* blogs */}
+            <Blogs></Blogs> <hr className="mx-5" />
 
            {/* About */}
              <h1 className=" text-center p-5 "> <Link className="text-decoration-none text-info" to="/about"> About Us</Link> </h1>

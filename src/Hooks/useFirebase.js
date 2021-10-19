@@ -277,7 +277,7 @@ useEffect( () => {
     onAuthStateChanged(auth, (user) => {
         if (user) {
          
-          console.log('inside state change', user);
+          
           setUser(user);
         }
          else {
