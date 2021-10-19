@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Doctor.css';
 
 
@@ -7,7 +8,7 @@ import './Doctor.css';
 const Doctor = () => {
     return (
         <div className="container pt-5">
-                          <h1 className="text-info text-center p-4">Doctors Gallery</h1>
+                          <h1 className=" text-center p-4"> <Link className="text-decoration-none text-info" to="/doctor"> Doctors Gallery</Link></h1>
               <div className="row ">
                   <div className="col-sm-12 col-md-6 col-lg-4 doctor mb-5 gx-3 p-3">
                       <div>
