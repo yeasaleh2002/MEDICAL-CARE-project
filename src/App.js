@@ -12,8 +12,9 @@ import Contact from './components/AllFeatures/Contact/Contact';
 import AboutUs from './components/AllFeatures/AboutUs/AboutUs';
 import Blogs from './components/AllFeatures/Blogs/Blogs';
 import Register from './components/LoginAndRegister/Register/Register';
-import Service from './components/AllFeatures/Service/Service';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import ServiceDetails from './components/AllFeatures/ServiceDetails/ServiceDetails';
 
 
 function App() {
@@ -39,9 +40,9 @@ function App() {
                <Services></Services>
              </Route>
 
-             <Route path="/service/:serviceId">
-               <Service></Service>
-             </Route>
+             <PrivateRoute path="/serviceDetails/:serviceId">
+               <ServiceDetails></ServiceDetails>
+             </PrivateRoute>
 
              <Route path="/doctor">
                <Doctor></Doctor>
@@ -82,3 +83,7 @@ function App() {
 }
 
 export default App;
+
+
+
+

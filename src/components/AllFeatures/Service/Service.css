@@ -1,17 +1,21 @@
+/* service card style */
 .service-card{
     transition: .7s;
     border-radius: 12px;
 }
 
+/* service card hover effect style */
 .service-card:hover{
    box-shadow: 2px 5px 10px gray;
    border-radius: 15px;
 }
 
+/* service image style */
 .service-img {
     height: 250px;
 }
 
+/* call us  button hover effect style */
 .call-us-button:hover{
      background-color: tomato;
      border: 2px solid sandybrown;

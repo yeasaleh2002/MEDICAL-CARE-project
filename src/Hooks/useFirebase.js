@@ -1,15 +1,19 @@
 import  { useEffect, useState } from 'react';
 import initializeAuthentication from '../Firebase/firebase.init';
-import { getAuth, signInWithPopup, GoogleAuthProvider, GithubAuthProvider, FacebookAuthProvider, onAuthStateChanged, createUserWithEmailAndPassword , signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile, signOut } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, GithubAuthProvider, FacebookAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
 
 
-initializeAuthentication();
+ initializeAuthentication();
 
 const useFirebase = () => {
    
    
    // declare getAuth
    const auth = getAuth();
+/* 
+
+, createUserWithEmailAndPassword , signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile
+
 
 
    // name input field useState declare
@@ -21,15 +25,45 @@ const useFirebase = () => {
     // password change useState declare
     const [password , setPassword] = useState('');
 
+
+
+
+ */
+
+
+
+
+
+
     // 3rd party login useState declare
     const [user, setUser] = useState({});
+
+
+
+
+
+
+/* 
+
+
 
     // Password should be at least 6 characters --- 
     const [error, setError] = useState('');
 
       // toggle login state declare 
     const [isLogin, setIsLogin] = useState(false);
-     
+
+
+
+
+      */
+
+
+
+
+
+
+
 
     //------ google provider-------
 const googleProvider = new GoogleAuthProvider();
@@ -45,8 +79,16 @@ const facebookProvider = new FacebookAuthProvider();
 
 
 
-
+/* 
     
+
+
+
+
+
+
+
+
     // ---------------handleName event handler ------------- 
     const handleNameChange = (event) => {
         setName(event.target.value);
@@ -184,6 +226,11 @@ const processLogin = (email, password) => {
 
 
 
+
+
+ */
+
+
    
 
     // ---------------handle google sign in process----------------
@@ -255,10 +302,10 @@ const processLogin = (email, password) => {
 //------------ handle sign out part-------------
 const handleSignOut = () => {
 
-    signOut(auth)
-    .then(() => {
-        setUser({});
-      })
+  signOut(auth)
+  .then(() => {
+      setUser({});
+  })
       .catch((error) => {
         console.log(error.message);
       });
@@ -288,8 +335,14 @@ useEffect( () => {
    
     return {
         user,
+      
+      
+      /*
+      
+      
+      
         error,
-        handleNameChange,
+         handleNameChange,
         handleEmailChange,
         handlePasswordChange,
         processLogin,
@@ -297,7 +350,10 @@ useEffect( () => {
         registerNewUser,
         setUserName,
         varifyEmail,
-        HandelResetPassword,
+        HandelResetPassword, */
+
+
+
         handleGoogleSignIn,
         handleGithubSignIn,
         handleFacebookSignIn,

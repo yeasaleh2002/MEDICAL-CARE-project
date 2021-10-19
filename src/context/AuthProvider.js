@@ -12,6 +12,9 @@ const AuthProvider = ({children}) => {
     const allContext = useFirebase();
 
     return (
+
+        // authContext provider and value set
+        
         <AuthContext.Provider value = {allContext}>
            {
                children

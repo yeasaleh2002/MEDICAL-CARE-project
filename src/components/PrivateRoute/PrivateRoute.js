@@ -8,11 +8,16 @@ const PrivateRoute = ({ children , ...rest }) => {
   
     return (
 
-
+    //   private route randering and redirect
        <Route
             {...rest}
+
+            //rendering
             render={({location}) => user.displayName ? children
              : 
+
+
+             // redirect
              <Redirect to={{
                  pathname : "/login",
                  state : {from: location}

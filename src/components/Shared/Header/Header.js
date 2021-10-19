@@ -2,9 +2,14 @@ import React from 'react';
 import './Header.css';
 import { NavLink } from 'react-router-dom';
 import { Container, Nav, Navbar} from 'react-bootstrap';
+import useAuth from '../../../Hooks/useAuth';
 
 
 const Header = () => {
+
+       // useAuth import
+    const { user, handleSignOut } = useAuth();
+
     return (
     
    <div>
@@ -34,7 +39,28 @@ const Header = () => {
        <NavLink className="nav-link fs-5" to="/about">About Us</NavLink>    
        <NavLink className="nav-link fs-5" to="/contact">Contact</NavLink>
        <NavLink className="nav-link fs-5" to="/login">LogIn</NavLink>
-      
+       
+       
+       <span className="fs-5 ms-2 pt-2">{user.displayName} </span>
+            {user?.displayName && <button  className="fs-5 ms-2" onClick={handleSignOut}>log out</button>}
+        
+ 
+ {/* 
+{user?.displayName && <span className="fs-5 ms-2 pt-2" >Hello {user.displayName} </span>}
+
+ 
+{ 
+ user.displayName ?
+ <button  className="fs-5 ms-2" onClick={handleSignOut}>log out</button>
+:  
+  
+      <NavLink className="nav-link fs-5" to="/login"> <button> LogIn </button> </NavLink>
+  }
+
+  */}
+
+
+
     </Nav>
     
   </Navbar.Collapse>

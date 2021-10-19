@@ -6,15 +6,18 @@ import './Services.css';
 
 const Services = () => {
 
-
+   // useState declare
      const [services, setServices ] = useState([]);
 
 
+     // data load
       useEffect(() => {
            fetch(`/medicalServices.json`)
            .then(response => response.json())
            .then(data => setServices(data))
       }, [])
+
+
 
     return (
         <div>
@@ -23,21 +26,20 @@ const Services = () => {
             <h1 className=" text-center text-secondary mt-5 pb-4"> <Link className="text-decoration-none text-secondary" to="/services"> Our Services</Link></h1>
             
 
+            {/* services all  data */}
+                <Row xs={1} md={2} lg={3} className="g-4"  >
+                    
+                    {
+                        services.map(medicalService => <Service
+                        key = {medicalService._id}
+                        service = {medicalService}
+                        
+                        >
 
-         <Row xs={1} md={2} lg={3} className="g-4"  >
-               
-             {
-                services.map(medicalService => <Service
-                   key = {medicalService._id}
-                   service = {medicalService}
-                
-                >
+                        </Service>) 
+                    }
 
-
-                </Service>) 
-             }
-
-         </Row>
+                </Row>
 
 
             </div>

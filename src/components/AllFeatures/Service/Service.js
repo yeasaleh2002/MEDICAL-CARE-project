@@ -30,14 +30,15 @@ const Service = (props) => {
                 {/*our medical care service small description dynamic */}
                 
                 <Card.Text>
-                {description.slice(0 , 236)}
+                {description}
                 </Card.Text>
-                
+
+               
 
                             
                 <span className=" d-flex align-items-center justify-content-center">
                 {/* checking single service details  */}
-                <Link  to={`/service/${_id}`}>
+                <Link  to={`/serviceDetails/${_id}`}>
                 <button className="btn btn-secondary call-us-button fs-5"> Call Us </button>
                 </Link>
                 </span>
