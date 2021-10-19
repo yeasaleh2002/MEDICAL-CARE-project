@@ -44,7 +44,7 @@ const Contact = () => {
 
 
             {/* Get in touch with us -- contact part  */}
-                <div className="col-sm-12 col-md-5  contact">
+                <div className="col-sm-12 col-md-12 col-lg-6  contact">
                             <h1 className="text-info text-center">Contact</h1>
                             <p className="fs-4 text-secondary mt-4"> <i className="fas fa-phone-square-alt bg-success text-white p-2 me-2"></i> 01757604381 </p> 
                             <hr />
@@ -66,7 +66,7 @@ const Contact = () => {
                 </div>
 
      {/* Get in touch with us image part */}
-                <div  className="col-sm-12 col-md-7 image-style">
+                <div  className="col-sm-12 col-md-12 col-lg-6 image-style">
                      <img src="https://i.ibb.co/FnBxD6n/London-Google-Maps.png" alt="" />
                 </div>
             </div>
