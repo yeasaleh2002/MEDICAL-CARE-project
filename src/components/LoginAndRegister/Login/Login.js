@@ -2,9 +2,13 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
 import './Login.css';
 
 const Login = () => {
+
+    const { handleGoogleSignIn, handleGithubSignIn, handleFacebookSignIn } = useAuth();
+
     return (
 
          /* ------ login full page start------ */
@@ -36,9 +40,9 @@ const Login = () => {
                           
                           {/* social media icon and button */}
                         <div>
-                            <Button className="icon-style text-danger fs-5 rounded-3"><i className="text-primary fab fa-google"></i> Google</Button>{' '}
-                            <Button className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-github"></i> Github</Button>{' '}
-                            <Button className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-facebook"></i> Facebook</Button>{' '}
+                            <Button  onClick= {handleGoogleSignIn} className="icon-style text-danger fs-5 rounded-3"><i className="text-primary fab fa-google"></i> Google</Button>{' '}
+                            <Button  onClick= {handleGithubSignIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-github"></i> Github</Button>{' '}
+                            <Button  onClick= {handleFacebookSignIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-facebook"></i> Facebook</Button>{' '}
                             </div> <hr  className="w-100"/>
                             <span className="fs-4">New Users ? <Link className="text-info text-decoration-none" to="/register">Register</Link></span>                       
                         </div>

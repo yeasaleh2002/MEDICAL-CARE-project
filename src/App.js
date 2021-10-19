@@ -13,13 +13,14 @@ import AboutUs from './components/AllFeatures/AboutUs/AboutUs';
 import Blogs from './components/AllFeatures/Blogs/Blogs';
 import Register from './components/LoginAndRegister/Register/Register';
 import Service from './components/AllFeatures/Service/Service';
+import AuthProvider from './context/AuthProvider';
 
 
 function App() {
   return (
     <div className="App">
         
-
+     <AuthProvider>
         <BrowserRouter>
  
         <Header></Header>
@@ -75,6 +76,7 @@ function App() {
        <Footer></Footer>
 
         </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }
