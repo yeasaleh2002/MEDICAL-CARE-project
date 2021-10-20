@@ -64,7 +64,7 @@ const Login = () => {
                     <hr className="w-100" />
                           
                           
-                          {/* social media icon and button */}
+                          {/* social media icon and button using */}
                         <div>
                             <Button  onClick= {handleGoogleLogIn} className="icon-style text-danger fs-5 rounded-3"><i className="text-primary fab fa-google"></i> Google</Button>{' '}
                             <Button  onClick= {handleGithubLogIn} className=" text-danger fs-5 rounded-3"><i className="text-primary fab fa-github"></i> Github</Button>{' '}
