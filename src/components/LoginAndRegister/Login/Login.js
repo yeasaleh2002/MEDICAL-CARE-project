@@ -7,13 +7,15 @@ import './Login.css';
 
 const Login = () => {
 
-    const { handleGoogleSignIn, handleGithubSignIn, handleFacebookSignIn } = useAuth();
+    const {handleRegister, handleEmailChange,  handlePasswordChange, toggleLogIn, error, handleGoogleSignIn, handleGithubSignIn, handleFacebookSignIn } = useAuth();
 
+    // location
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home'
 
     
+    // handleGoogleLogIn function
   const handleGoogleLogIn = () => {
     handleGoogleSignIn()
     .then(result => {
@@ -21,6 +23,7 @@ const Login = () => {
     })
   }
 
+  //handleGithubLogIn function
   const handleGithubLogIn = () => {
     handleGithubSignIn()
     .then(result => {
@@ -28,6 +31,7 @@ const Login = () => {
     })
   }
 
+  //handleFacebookLogIn function
   const handleFacebookLogIn = () => {
     handleFacebookSignIn()
     .then(result => {
@@ -46,21 +50,28 @@ const Login = () => {
 
 
                      {/* login  part */}
-                <Form className="m-5 p-4">
+                <Form  onSubmit={handleRegister} className="m-5 p-4">
                     <div className="row">
 
                         {/* login form part */}
                     <div  className="col-sm-12 col-md-12 col-lg-5">
                         <h1>Login Page</h1>
+
+                        {/* email */}
                     <Form.Group className="mb-3" controlId="formGroupEmail">
                         <Form.Label>Email address</Form.Label>
-                        <Form.Control  type="email" placeholder="Enter email" />
+                        <Form.Control  onBlur={handleEmailChange} type="email" placeholder="Enter email" required />
                     </Form.Group>
+
+                    {/* password */}
                     <Form.Group className="mb-3" controlId="formGroupPassword">
                         <Form.Label>Password</Form.Label>
-                        <Form.Control  type="password" placeholder="Password" />
+                        <Form.Control  onBlur={handlePasswordChange} type="password" placeholder="Password" required />
                     </Form.Group>
-                    <Button className="p-2 rounded-3 login-btn" >Please Login</Button>{' '}
+
+                      {/* button and error */}
+                    <span className="row mb-3 p-2  text-warning">{error}</span>
+                    <Button  onChange={toggleLogIn} type="submit" className="p-2 rounded-3 login-btn" >Please Login</Button>{' '}
                     <hr className="w-100" />
                           
                           
